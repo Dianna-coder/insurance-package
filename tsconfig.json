@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "target": "ES2019",
+    /* Strict Type-Checking Options */
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "strict": true,
+    "strictBindCallApply": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": false,
+    /* Additional Checks */
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    /* Module Resolution Options */
+    "esModuleInterop": true,
+    /* Experimental Options */
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
