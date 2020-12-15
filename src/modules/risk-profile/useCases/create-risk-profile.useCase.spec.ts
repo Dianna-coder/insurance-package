@@ -1,6 +1,4 @@
-import chai, { expect } from 'chai'
-import chaiAsPromised from 'chai-as-promised'
-import { InsurancePlan } from '../../../types/index.enum'
+import { expect } from 'chai'
 
 import {
   CalculateRiskScore
@@ -8,9 +6,8 @@ import {
 import {
   ConvertScoreToPlan
 } from '../../../shared/convert-score-to-plan/implementations/convert-score-to-plan.service'
+import { InsurancePlan } from '../../../types/index.enum'
 import CreateRiskProfileUseCase from './create-risk-profile.useCase'
-
-chai.use(chaiAsPromised)
 
 describe('UNIT | Test of risk profile creation', () => {
   let calculateRiskScore: CalculateRiskScore

@@ -19,7 +19,7 @@ app.use(express.json())
 app.use(helmet())
 app.use(cors(corsOptions))
 
-app.use('/insurance-package', routes)
+app.use('/v1/insurance-package', routes)
 app.use(handlingErrorRequest)
 
 app.listen(3333, () => console.log('Server started on port 3333!'))
