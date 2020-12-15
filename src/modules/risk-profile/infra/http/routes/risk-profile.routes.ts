@@ -6,8 +6,6 @@ import { CreateRiskProfileSchema } from './schemas/create-risk-profile.schema'
 
 const riskProfileRouter = Router()
 
-riskProfileRouter.use(errors())
-
 const createRiskProfileController = new CreateRiskProfileController()
 
 riskProfileRouter.post(
@@ -15,5 +13,7 @@ riskProfileRouter.post(
   celebrate(CreateRiskProfileSchema),
   createRiskProfileController.create
 )
+
+riskProfileRouter.use(errors())
 
 export default riskProfileRouter
