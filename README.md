@@ -1,5 +1,4 @@
-<br />
-  <h1 align="center">Insurance Package</h1>
+<h1>Insurance Package</h1>
 
 ## Table Of Contents
 
@@ -128,8 +127,6 @@ I tested my module using the .spec file for unit testing and .test for integrati
 - [To run only the unit tests] give 'npm run test: unit';
 - [To run only the integration tests] give 'npm run test: integration';
 - [To see the test coverage] give 'npm run test: coverage'.
-
----
 
 ## File Structure
 
