@@ -5,6 +5,7 @@
     "rootDir": "./src",
     "sourceMap": true,
     "target": "ES2019",
+    "baseUrl": "./src",
     /* Strict Type-Checking Options */
     "alwaysStrict": true,
     "noImplicitAny": true,
